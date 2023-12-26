@@ -1,19 +1,4 @@
-// const header=document.querySelector(".header");
-// const routes=document.querySelectorAll(".nav-route");
-// const section=document.querySelectorAll(".section");
 
-// routes.addEventListener("click",function(e){
-//   console.log(e.target.dataset.id);
-//   const id=e.target.dataset.id;
-//   if(id){
-//   routes.forEach(function(link){
-//     link.classList.remove("active");
-//     e.target.classList.add("active");
-//   })
-
-
-//   }
-// })
 
 document.addEventListener('DOMContentLoaded', function() {
   const navRoutes = document.querySelectorAll('.nav-route');
